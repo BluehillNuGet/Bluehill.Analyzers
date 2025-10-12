@@ -1,13 +1,13 @@
 ﻿<Project>
   <PropertyGroup>
     <Product>Bluehill.Analyzers</Product>
-    <PackageProjectUrl>https://bluehillnuget.github.io/Bluehill.Analyzers</PackageProjectUrl>
+    <PackageProjectUrl>https://analyzers.bluehill.dev</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/BluehillNuGet/Bluehill.Analyzers</RepositoryUrl>
     <AssemblyVersion>1</AssemblyVersion>
-    <FileVersion>1.9.0</FileVersion>
-    <Version>1.9</Version>
+    <FileVersion>1.9.1</FileVersion>
+    <Version>1.9.1</Version>
     <NoWarn>$(NoWarn);RS2008;SA1600</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">

@@ -1,7 +1,7 @@
 ﻿namespace Bluehill.Analyzers;
 
 public abstract class BHAnalyzer : DiagnosticAnalyzer {
-    protected const string BaseUrl = "https://bluehillnuget.github.io/Bluehill.Analyzers/";
+    protected const string BaseUrl = "https://analyzers.bluehill.dev/rules/";
 
     public sealed override void Initialize(AnalysisContext context) {
         // Configure generated code analysis
