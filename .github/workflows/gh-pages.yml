@@ -40,9 +40,9 @@ jobs:
           restore-keys: ${{ runner.os }}-pages-nuget-
       - name: Build and Run
         run: |
-          dotnet restore
-          dotnet build -c Release --no-restore
-          dotnet run -c Release --no-build
+          dotnet restore ./Bluehill.Analyzers.Pages
+          dotnet build ./Bluehill.Analyzers.Pages -c Release --no-restore
+          dotnet run --project ./Bluehill.Analyzers.Pages -c Release --no-build
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
