@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>Bluehill.Analyzers - @Document.GetTitle()</title>
+	<link rel="stylesheet" href="/css/bootstrap/css/bootstrap.css" />
+	<link rel="stylesheet" href="/css/app.css" />
+</head>
+<body>
+	<div id="bh-root">
+		<div id="top-bar">
+			<a href="/">Home</a>
+			@foreach (var item in Types.Items)
+			{
+				<a href="@item.Path">@item.Name</a>
+			}
+		</div>
+		@RenderBody()
+		<p>Copyright &copy; Bluehill 2025</p>
+	</div>
+</body>
+</html>

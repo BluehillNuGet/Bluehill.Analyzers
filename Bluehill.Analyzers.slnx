@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/솔루션 항목/">
+    <File Path=".editorconfig" />
+    <File Path=".gitignore" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="Bluehill.Analyzers.Attributes/Bluehill.Analyzers.Attributes.csproj" />
+  <Project Path="Bluehill.Analyzers.CodeFixes/Bluehill.Analyzers.CodeFixes.csproj" />
+  <Project Path="Bluehill.Analyzers.Package/Bluehill.Analyzers.Package.csproj" />
+  <Project Path="Bluehill.Analyzers.Pages/Bluehill.Analyzers.Pages.csproj" />
+  <Project Path="Bluehill.Analyzers.Tests/Bluehill.Analyzers.Tests.csproj" />
+  <Project Path="Bluehill.Analyzers/Bluehill.Analyzers.csproj" />
+</Solution>

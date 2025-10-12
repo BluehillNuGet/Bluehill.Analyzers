@@ -1,0 +1,19 @@
+﻿@{
+	IgnoreBody();
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="canonical" href="@Document.GetString("RedirectTo")" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="refresh" content="0;url=@Document.GetString("RedirectTo")" />
+</head>
+<body>
+	<h1>Redirecting...</h1>
+	<a href="@Document.GetString("RedirectTo")">
+		Click here if you are not redirected.
+	</a>
+	<script>location = '@Document.GetString("RedirectTo")'</script>
+</body>
+</html>

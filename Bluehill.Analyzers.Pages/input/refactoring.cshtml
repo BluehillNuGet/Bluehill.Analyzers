@@ -1,0 +1,14 @@
+﻿Title: Refactorings
+---
+
+@{
+	Layout = "_Layout.cshtml";
+}
+
+<h1>Refactorings</h1>
+
+<ul>
+	@foreach (var p in Context.OutputPages.Where(p => p.Destination.Parent == "refactoring")) {
+		<li><a href="@Context.GetLink(p.Destination)">@p.Destination.FileNameWithoutExtension</a></li>
+	}
+</ul>

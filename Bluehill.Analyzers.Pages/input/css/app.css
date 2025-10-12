@@ -1,0 +1,32 @@
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.25em;
+}
+
+html, body {
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+div#bh-root {
+    width: 50%;
+    min-width: 350px;
+}
+
+div#top-bar {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid gray;
+    font-size: 20pt;
+    column-gap: 15px;
+}

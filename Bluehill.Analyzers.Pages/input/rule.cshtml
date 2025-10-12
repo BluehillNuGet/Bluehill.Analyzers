@@ -1,0 +1,15 @@
+﻿Title: Rules
+---
+
+@{
+	Layout = "_Layout.cshtml";
+}
+
+<h1>Rules</h1>
+
+<ul>
+	@foreach (var p in Context.OutputPages.Where(p => p.Destination.Parent == "rule"))
+	{
+		<li><a href="@Context.GetLink(p.Destination)">@p.Destination.FileNameWithoutExtension</a></li>
+	}
+</ul>

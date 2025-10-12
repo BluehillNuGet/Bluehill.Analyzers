@@ -1,0 +1,17 @@
+﻿Title: Home
+---
+
+@{
+	Layout = "_Layout.cshtml";
+}
+
+<h1>Bluehill.Analyzers</h1>
+
+<p>These pages describe the Bluehill.Analyzers analyzer.</p>
+
+<ul>
+	@foreach (var item in Types.Items)
+	{
+		<li><a href="@item.Path">@item.Name</a></li>
+	}
+</ul>

@@ -51,22 +51,6 @@
         "resolved": "1.9.0",
         "contentHash": "CCZd1bRWbvSByTR5wPcZYuT7KI/CPD3nX8LAfE5rkvFWRxpdLDNLCPtDgPQBheFoYSd7bm3LsVSIim15gayBSA=="
       },
-      "Microsoft.CodeAnalysis.Common": {
-        "type": "Transitive",
-        "resolved": "4.14.0",
-        "contentHash": "PC3tuwZYnC+idaPuoC/AZpEdwrtX7qFpmnrfQkgobGIWiYmGi5MCRtl5mx6QrfMGQpK78X2lfIEoZDLg/qnuHg==",
-        "dependencies": {
-          "Microsoft.CodeAnalysis.Analyzers": "3.11.0",
-          "System.Buffers": "4.5.1",
-          "System.Collections.Immutable": "9.0.0",
-          "System.Memory": "4.5.5",
-          "System.Numerics.Vectors": "4.5.0",
-          "System.Reflection.Metadata": "9.0.0",
-          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
-          "System.Text.Encoding.CodePages": "7.0.0",
-          "System.Threading.Tasks.Extensions": "4.5.4"
-        }
-      },
       "Microsoft.NETCore.Platforms": {
         "type": "Transitive",
         "resolved": "1.1.0",
@@ -173,6 +157,23 @@
         "requested": "[4.14.0, )",
         "resolved": "4.14.0",
         "contentHash": "fCj+MzjJxN/4iYAz7JPLONGKeTomaZNzx4UgGA0AerTrx4Ou6Rw2J5YF4V51vWW+aSQSCv1nnAkCZUw5Z9+3zw=="
+      },
+      "Microsoft.CodeAnalysis.Common": {
+        "type": "CentralTransitive",
+        "requested": "[4.14.0, )",
+        "resolved": "4.14.0",
+        "contentHash": "PC3tuwZYnC+idaPuoC/AZpEdwrtX7qFpmnrfQkgobGIWiYmGi5MCRtl5mx6QrfMGQpK78X2lfIEoZDLg/qnuHg==",
+        "dependencies": {
+          "Microsoft.CodeAnalysis.Analyzers": "3.11.0",
+          "System.Buffers": "4.5.1",
+          "System.Collections.Immutable": "9.0.0",
+          "System.Memory": "4.5.5",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Reflection.Metadata": "9.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Text.Encoding.CodePages": "7.0.0",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        }
       },
       "Microsoft.CodeAnalysis.CSharp": {
         "type": "CentralTransitive",
