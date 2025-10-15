@@ -10,13 +10,13 @@
       },
       "Bluehill.Imports": {
         "type": "Direct",
-        "requested": "[1.0.20, )",
-        "resolved": "1.0.20",
-        "contentHash": "h1QR0GdU33O/RjjCVq7IiVI5CiHdJjvgWLOsxglbBL0FlXCr5yVMk3oJcQYLLE287GO/8ttlryCy3Ltme2/tKg==",
+        "requested": "[1.0.21, )",
+        "resolved": "1.0.21",
+        "contentHash": "W2gNX1eEa7Lgb0xMdD8HAr49IBqQRImer4FAhdPtR6ItIN6oDzsQfYqybn9STGekz5iPrvEtwr5DA9MNG2Rotw==",
         "dependencies": {
-          "Bluehill.Analyzers": "1.9.0",
-          "Roslynator.Analyzers": "4.14.0",
-          "Roslynator.Formatting.Analyzers": "4.14.0",
+          "Bluehill.Analyzers": "1.9.1",
+          "Roslynator.Analyzers": "4.14.1",
+          "Roslynator.Formatting.Analyzers": "4.14.1",
           "SonarAnalyzer.CSharp": "10.15.0.120848",
           "StyleCop.Analyzers": "1.2.0-beta.556"
         }
@@ -48,8 +48,8 @@
       },
       "Bluehill.Analyzers": {
         "type": "Transitive",
-        "resolved": "1.9.0",
-        "contentHash": "CCZd1bRWbvSByTR5wPcZYuT7KI/CPD3nX8LAfE5rkvFWRxpdLDNLCPtDgPQBheFoYSd7bm3LsVSIim15gayBSA=="
+        "resolved": "1.9.1",
+        "contentHash": "kdRHMDUNz7JPjk5gRcl1wqD3gz2XltDKk5VHIKdyHJ0ciiPs5TY0RLSXsTeUIL/kTc2ZVxXwJk0Y7cr94ZlTNg=="
       },
       "Microsoft.NETCore.Platforms": {
         "type": "Transitive",
@@ -58,8 +58,8 @@
       },
       "Roslynator.Analyzers": {
         "type": "Transitive",
-        "resolved": "4.14.0",
-        "contentHash": "AEWQMrb1rcmjv9FGzrwYSBb4INhDhsauS+wwTumG0wq8N1Il+CIQHqUZJ7bt0zYJEA1qXSqgpg8Fgwc88WrR/Q=="
+        "resolved": "4.14.1",
+        "contentHash": "yMSjze/xMYDF6PCE60/ULWx0tttNyKAndw2KijNxbKil0FX8nvDeEneDZGma8Uifk17RlfZqIXxf1mmBmhRHjg=="
       },
       "Roslynator.Core": {
         "type": "Transitive",
@@ -71,8 +71,8 @@
       },
       "Roslynator.Formatting.Analyzers": {
         "type": "Transitive",
-        "resolved": "4.14.0",
-        "contentHash": "qGxeOq3qYZQo3nxCPqcU+QX82k2iPnStoE4mwIU1nMlOiN8yciOrGKfU4v7UgBv66GRi6Sqoc0/UDXoSdP+e1Q=="
+        "resolved": "4.14.1",
+        "contentHash": "hALZsyELJXhj7WQw7Q7nLI7sELre8AlQIMyGxXpmpK+iBqShPcWHuJMGjIsTMa/bC8Q5xyQ4iFfRtm0bP1zisQ=="
       },
       "SonarAnalyzer.CSharp": {
         "type": "Transitive",

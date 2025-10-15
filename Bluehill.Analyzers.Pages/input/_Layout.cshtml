@@ -6,6 +6,12 @@
 	<title>Bluehill.Analyzers - @Document.GetTitle()</title>
 	<link rel="stylesheet" href="/css/bootstrap/css/bootstrap.css" />
 	<link rel="stylesheet" href="/css/app.css" />
+	@if (enableHighlight)
+	{
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/default.min.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
+		<script>hljs.highlightAll();</script>
+	}
 </head>
 <body>
 	<div id="bh-root">
@@ -13,7 +19,7 @@
 			<a href="/">Home</a>
 			@foreach (var item in Types.Items)
 			{
-				<a href="@item.Path">@item.Name</a>
+				<a href="@item.Path">@item.ShortName</a>
 			}
 		</div>
 		@RenderBody()
@@ -21,3 +27,24 @@
 	</div>
 </body>
 </html>
+
+@functions
+{
+	bool enableHighlight
+	{
+		get
+		{
+			var d = Document.Destination;
+
+			if (d.ToString() == "generator.html")
+			{
+				return true;
+			}
+
+			var s = d.Parent.ToString();
+
+			// ReSharper disable once MergeIntoLogicalPattern
+			return s == "rule" || s == "refactoring" || s == "generator";
+		}
+	}
+}

@@ -1,11 +1,11 @@
 ﻿namespace Bluehill.Analyzers.Pages;
 
 public static class Types {
-    public static IEnumerable<(string Name, string Path)> Items {
+    public static IEnumerable<(string Path, string Name, string ShortName)> Items {
         get {
-            yield return ("Rules", "/rule");
-            yield return ("Refactorings", "/refactoring");
-            yield return ("Source Generators", "/generator");
+            yield return ("/rule", "Rules", "Rules");
+            yield return ("/refactoring", "Refactorings", "Refactorings");
+            yield return ("/generator", "Source Generators", "Generators");
         }
     }
 }
