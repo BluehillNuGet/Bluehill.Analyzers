@@ -18,8 +18,10 @@ body {
 }
 
 div#bh-root {
-    width: 50%;
+    width: 100%;
     min-width: 350px;
+    max-width: 800px;
+    padding: 0 15px;
 }
 
 div#top-bar {
