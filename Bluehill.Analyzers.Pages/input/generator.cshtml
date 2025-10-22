@@ -9,11 +9,9 @@
 
 <p>Attributes required by source generators are provided through the <code>Bluehill.Analyzers.Attributes</code> package. To install this package, add the following to csproj:</p>
 
-<pre><code class="language-xml">
-&lt;ItemGroup&gt;
+<pre><code class="language-xml">&lt;ItemGroup&gt;
 	&lt;PackageReference Include=&quot;Bluehill.Analyzers.Attributes&quot; Version=&quot;&lt;version&gt;&quot; PrivateAssets=&quot;all&quot; ExcludeAssets=&quot;runtime&quot; /&gt;
-&lt;/ItemGroup&gt;
-</code></pre>
+&lt;/ItemGroup&gt;</code></pre>
 
 <p>There is no reason to include the Bluehill.Analyzers.Attributes assembly in the output directory because the attributes are removed at compile time.</p>
 
