@@ -44,7 +44,7 @@ jobs:
           dotnet build ./Bluehill.Analyzers.Pages -c Release --no-restore
           dotnet run --project ./Bluehill.Analyzers.Pages -c Release --no-build
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
